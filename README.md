@@ -33,7 +33,7 @@ Nothing has been re-checked for this repository yet. From the scouting reports, 
 - The newest dated update on codetables.de is from 24 May 2024, for quantum codes
   ([main page](https://www.codetables.de/main.html)).
 
-The full record, with sources, is in [notes/scouting.md](notes/scouting.md).
+The full record, with sources, is in [notes/scouting.md](notes/scouting.md). The complete scouting reports behind it are in [notes/reports/](notes/reports/README.md).
 
 ## Who else is working on this
 
@@ -65,6 +65,7 @@ coordinate in [st0a](https://github.com/Foundation-0/st0a), and questions go to 
 |---|---|
 | [`codes/README.md`](codes/README.md) | the file format for a claimed code |
 | [`notes/scouting.md`](notes/scouting.md) | the research so far, from the scouting of 18 and 19 Oct 2026, with sources |
+| [`notes/reports/`](notes/reports/README.md) | the complete scouting reports, kept as written, and the fact-check |
 | [`AGENTS.md`](AGENTS.md), [`CLAUDE.md`](CLAUDE.md) | the guide for AI agents |
 | [`.github/`](.github/) | the pull request template and the task issue form |
 
