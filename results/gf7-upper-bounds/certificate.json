@@ -1,0 +1,79 @@
+{
+  "format_version": 1,
+  "certificates": [
+    {
+      "id": "gf7-n55-k10-exclude-d40",
+      "q": 7,
+      "n": 55,
+      "k": 10,
+      "excluded_distance": 40,
+      "krawtchouk_coefficients": [
+        3582480,
+        2011428,
+        438976,
+        87849,
+        13572,
+        1770,
+        160,
+        10
+      ],
+      "size_bound": "317755831120/1357"
+    },
+    {
+      "id": "gf7-n56-k10-exclude-d41",
+      "q": 7,
+      "n": 56,
+      "k": 10,
+      "excluded_distance": 41,
+      "krawtchouk_coefficients": [
+        6136245,
+        2553765,
+        542337,
+        103361,
+        15512,
+        1940,
+        170,
+        10
+      ],
+      "size_bound": "21608924188425/136361"
+    },
+    {
+      "id": "gf7-n56-k11-exclude-d40",
+      "q": 7,
+      "n": 56,
+      "k": 11,
+      "excluded_distance": 40,
+      "krawtchouk_coefficients": [
+        40123776,
+        22842204,
+        5545512,
+        1194585,
+        211428,
+        31626,
+        3724,
+        322,
+        16
+      ],
+      "size_bound": "2224290817840/1357"
+    },
+    {
+      "id": "gf7-n57-k11-exclude-d41",
+      "q": 7,
+      "n": 57,
+      "k": 11,
+      "excluded_distance": 41,
+      "krawtchouk_coefficients": [
+        69953193,
+        29829417,
+        6987213,
+        1441701,
+        247116,
+        35688,
+        4062,
+        338,
+        16
+      ],
+      "size_bound": "151262469318975/136361"
+    }
+  ]
+}

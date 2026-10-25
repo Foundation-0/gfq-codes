@@ -1,0 +1,86 @@
+{
+  "description": "Four individually checked entries from Markus Grassl's compilation; no full table or source HTML is redistributed. Hashes identify the response bytes read, but do not guarantee later URL availability or immutability.",
+  "entries": [
+    {
+      "q": 7,
+      "n": 55,
+      "k": 10,
+      "url": "https://www.codetables.de/BKLC/BKLC.php?q=7&n=55&k=10",
+      "retrieved_at_utc": "2026-10-25T05:18:27+00:00",
+      "http_status": 200,
+      "displayed_lower_bound": 34,
+      "displayed_upper_bound": 40,
+      "entry_last_modified": "2008-10-10",
+      "response_sha256": "b805d923e10bc518778186de0c10abd652734aafc3347baf1422eb19883fbc1b"
+    },
+    {
+      "q": 7,
+      "n": 56,
+      "k": 10,
+      "url": "https://www.codetables.de/BKLC/BKLC.php?q=7&n=56&k=10",
+      "retrieved_at_utc": "2026-10-25T05:18:27+00:00",
+      "http_status": 200,
+      "displayed_lower_bound": 35,
+      "displayed_upper_bound": 41,
+      "entry_last_modified": "2014-08-25",
+      "response_sha256": "91117f9f9284e0fb6e3b9a92f9c9dbb95004ea1092e58f5e1df59dfb577e6049"
+    },
+    {
+      "q": 7,
+      "n": 56,
+      "k": 11,
+      "url": "https://www.codetables.de/BKLC/BKLC.php?q=7&n=56&k=11",
+      "retrieved_at_utc": "2026-10-25T05:18:28+00:00",
+      "http_status": 200,
+      "displayed_lower_bound": 34,
+      "displayed_upper_bound": 40,
+      "entry_last_modified": "2010-08-13",
+      "response_sha256": "86a33d0edc8f0d89b0b66c71131b2d598b9c5def5a22eb62972d00dbf6416dcf"
+    },
+    {
+      "q": 7,
+      "n": 57,
+      "k": 11,
+      "url": "https://www.codetables.de/BKLC/BKLC.php?q=7&n=57&k=11",
+      "retrieved_at_utc": "2026-10-25T05:18:28+00:00",
+      "http_status": 200,
+      "displayed_lower_bound": 34,
+      "displayed_upper_bound": 41,
+      "entry_last_modified": "2008-01-21",
+      "response_sha256": "e07f601eceeb3c1f8f71bd9314ecaa52b76248d37b5a54bdd64950c5ddf73f83"
+    }
+  ],
+  "method_sources": [
+    {
+      "author": "Philippe Delsarte",
+      "title": "An algebraic approach to the association schemes of coding theory",
+      "year": 1973,
+      "publication": "Philips Research Reports Supplements, No. 10",
+      "url": "https://users.wpi.edu/~martin/RESEARCH/philips.pdf",
+      "location": "Theorem 3.8, section 3.3.2, printed page 31 (PDF page 20); section 4.1 specializes to Hamming schemes.",
+      "accessed": "2026-10-25",
+      "pdf_sha256": "75369085e195e98d0e032b048f934e5506e8b368e130f76161df623993fc2ef5"
+    },
+    {
+      "author": "The Sage Development Team",
+      "title": "Delsarte (or linear programming) bounds \u2014 Coding Theory",
+      "url": "https://doc.sagemath.org/html/en/reference/coding/sage/coding/delsarte_bounds.html",
+      "accessed": "2026-10-25",
+      "role": "Reference implementation of the classical method and Krawtchouk convention; not executed for these results."
+    },
+    {
+      "authors": [
+        "Rumen Daskalov",
+        "Elena Metodieva"
+      ],
+      "title": "Minimum distance bounds for 7-ary linear codes",
+      "year": 2007,
+      "publication": "Fifth International Workshop on Optimal Codes and Related Topics, pp. 62\u201367",
+      "url": "https://www.researchgate.net/publication/264553328_Minimum_distance_bounds_for_7-ary_linear_codes",
+      "doi": "10.13140/2.1.3975.4883",
+      "accessed": "2026-10-25",
+      "location": "Theorem 2.2, printed page 66: 34 LP exclusions; none exactly equals the four triples certified here.",
+      "reviewed_by": "Independent AI referee; not exhaustive novelty review."
+    }
+  ]
+}
