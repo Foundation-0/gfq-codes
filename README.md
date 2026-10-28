@@ -21,11 +21,43 @@ It follows the pattern of f0's [gf2m-circuits](https://fdn0.org/research/gf2m-ci
 exhaustive checking) and of the [integer-multiplication race](https://fdn0.org/research/integer-multiplication/story/)
 (open pull requests, exact checks).
 
-**Status: not started.**
+**Status: research underway.** The first claimed result is an exact upper bound,
+with two independent arithmetic checks and a written proof; human review is pending.
+
+## First upper-bound result
+
+An exact Delsarte certificate excludes a linear `[55,10,40]` code over GF(7).
+Puncturing and shortening give three nearby consequences:
+
+| Length n | Dimension k | Upper bound displayed on 25 Oct 2026 | Upper bound here |
+|---:|---:|---:|---:|
+| 55 | 10 | 40 | 39 |
+| 56 | 10 | 41 | 40 |
+| 56 | 11 | 40 | 39 |
+| 57 | 11 | 41 | 40 |
+
+See the [proof and limits](results/gf7-upper-bounds/PROOF.md),
+[exact certificates](results/gf7-upper-bounds/certificate.json), and
+[source record](results/gf7-upper-bounds/sources.json). This tightens the displayed
+table entries using a classical method. It does not establish priority, construct
+a better code, or close the gaps to the known lower bounds.
+
+Python 3.10+ and its standard library are sufficient to replay the checks:
+
+```sh
+sha256sum -c tools/SHA256SUMS
+python3 tools/check_bound.py results/gf7-upper-bounds/certificate.json
+python3 tools/check_bound_independent.py results/gf7-upper-bounds/certificate.json
+python3 -m unittest discover -s tests -v
+```
+
+Both checkers use exact integers and rational numbers; no optimizer or network is
+needed. Nothing has been submitted to the table maintainer.
 
 ## What is known
 
-Nothing has been re-checked for this repository yet. From the scouting reports, not yet re-checked:
+The four table entries above were checked directly on 25 October 2026. Broader
+claims from the scouting reports below have not been re-checked:
 
 - 80,652 entries outside the binary table are open, meaning the best code known falls short of the upper bound
   (math0's census of 18 Oct 2026). In a random sample, 77% were last changed in 2001–2009.
@@ -51,6 +83,11 @@ A claimed code is a file in [codes/](codes/), in the format of [codes/README.md]
 minimum-distance checkers that use different algorithms and share no code must both confirm its dimension k and its
 minimum distance d. The first step is to build those checkers. Nothing goes to codetables.de until a person has
 contacted the maintainer and signs for it.
+
+Upper bounds have a separate format: [tools/README.md](tools/README.md). Both
+independent upper-bound checkers must accept each certificate. Their pinned
+versions are reviewed separately from the results, and a passing check verifies
+the finite inequalities used by the classical theorem.
 
 ## How to contribute
 
