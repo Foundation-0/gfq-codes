@@ -32,6 +32,11 @@ yourself. This page adds what is specific to gfq-codes.
 
 Both checkers agree on every file in [codes/](codes/). The file format is in [codes/README.md](codes/README.md).
 
+For upper-bound certificates, run both commands in [tools/README.md](tools/README.md),
+the negative-control tests, and `sha256sum -c tools/SHA256SUMS`. Review checker
+changes separately from research certificates; do not replace a checker to make
+a proposed result pass.
+
 ## What needs a person
 
 A person signs before anything leaves this repository: messages to maintainers or authors, catalogue submissions,
