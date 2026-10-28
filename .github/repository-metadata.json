@@ -1,0 +1,11 @@
+{
+  "description": "Better linear codes over GF(3) to GF(9), each with a minimum distance anyone can recompute, for the codetables.de tables.",
+  "topics": [
+    "foundation0",
+    "coding-theory",
+    "linear-codes",
+    "finite-fields",
+    "combinatorics",
+    "codetables"
+  ]
+}
