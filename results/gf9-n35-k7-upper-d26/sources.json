@@ -1,0 +1,17 @@
+{
+  "description": "Single codetables.de entry snapshot for this certificate.",
+  "entries": [
+    {
+      "q": 9,
+      "n": 35,
+      "k": 7,
+      "url": "https://www.codetables.de/BKLC/BKLC.php?q=9&n=35&k=7",
+      "retrieved_at_utc": "2026-10-31T23:37:38+00:00",
+      "http_status": 200,
+      "displayed_lower_bound": 23,
+      "displayed_upper_bound": 27,
+      "entry_last_modified": "2003-10-02",
+      "response_sha256": "30b9688cd31c8d25618601ad70625bbf499cbfe439ec7953f641690d803b8010"
+    }
+  ]
+}
