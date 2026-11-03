@@ -1,0 +1,123 @@
+{
+  "fetch_date_utc": "2026-10-31",
+  "fields": [
+    3,
+    4,
+    5,
+    7,
+    8,
+    9
+  ],
+  "k_range": "1..12 (and k < n)",
+  "n_range_q7": "1..80 excluding n=51..60 with k<=12",
+  "n_range_other": "1..60",
+  "counts": {
+    "tried": 3972,
+    "fetch_fail": 0,
+    "closed": 2078,
+    "lp_no": 1880,
+    "cert_fail": 0,
+    "checker_fail": 0
+  },
+  "hits": [
+    {
+      "q": 7,
+      "n": 74,
+      "k": 10,
+      "old_upper_bound": 56,
+      "new_upper_bound": 55
+    },
+    {
+      "q": 7,
+      "n": 75,
+      "k": 11,
+      "old_upper_bound": 56,
+      "new_upper_bound": 55
+    },
+    {
+      "q": 9,
+      "n": 31,
+      "k": 4,
+      "old_upper_bound": 26,
+      "new_upper_bound": 25
+    },
+    {
+      "q": 9,
+      "n": 32,
+      "k": 4,
+      "old_upper_bound": 27,
+      "new_upper_bound": 26
+    },
+    {
+      "q": 9,
+      "n": 32,
+      "k": 5,
+      "old_upper_bound": 26,
+      "new_upper_bound": 25
+    },
+    {
+      "q": 9,
+      "n": 33,
+      "k": 5,
+      "old_upper_bound": 27,
+      "new_upper_bound": 26
+    },
+    {
+      "q": 9,
+      "n": 33,
+      "k": 6,
+      "old_upper_bound": 26,
+      "new_upper_bound": 25
+    },
+    {
+      "q": 9,
+      "n": 34,
+      "k": 6,
+      "old_upper_bound": 27,
+      "new_upper_bound": 26
+    },
+    {
+      "q": 9,
+      "n": 34,
+      "k": 7,
+      "old_upper_bound": 26,
+      "new_upper_bound": 25
+    },
+    {
+      "q": 9,
+      "n": 35,
+      "k": 7,
+      "old_upper_bound": 27,
+      "new_upper_bound": 26
+    },
+    {
+      "q": 9,
+      "n": 35,
+      "k": 8,
+      "old_upper_bound": 26,
+      "new_upper_bound": 25
+    },
+    {
+      "q": 9,
+      "n": 36,
+      "k": 8,
+      "old_upper_bound": 27,
+      "new_upper_bound": 26
+    },
+    {
+      "q": 9,
+      "n": 36,
+      "k": 9,
+      "old_upper_bound": 26,
+      "new_upper_bound": 25
+    },
+    {
+      "q": 9,
+      "n": 37,
+      "k": 9,
+      "old_upper_bound": 27,
+      "new_upper_bound": 26
+    }
+  ],
+  "log_path": "scripts/output/sweep_log_2026-10-31.jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": 1,
+  "certificates": [
+    {
+      "id": "gf9-n37-k9-exclude-d27",
+      "q": 9,
+      "n": 37,
+      "k": 9,
+      "excluded_distance": 27,
+      "krawtchouk_coefficients": [
+        1272171,
+        838731,
+        224411,
+        50051,
+        9059,
+        1267,
+        127,
+        7
+      ],
+      "size_bound": "2245876574733/11461"
+    }
+  ]
+}
