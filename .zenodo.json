@@ -1,0 +1,27 @@
+{
+    "creators": [
+        {
+            "name": "Arifuddin, Ahraz"
+        }
+    ],
+    "title": "gfq-codes",
+    "description": "<p>This repository looks for linear codes over GF(3) to GF(9) that improve open entries in the tables of best known minimum distance, and checks each claimed code with two independent programs.</p><p>Status: research underway. The first claimed result is an exact Delsarte certificate excluding a linear [55,10,40] code over GF(7), with two independent arithmetic checks and a written proof; human review is pending.</p><p>It tightens four displayed upper bounds (for n=55, k=10 from 40 to 39; n=56, k=10 from 41 to 40; n=56, k=11 from 40 to 39; n=57, k=11 from 41 to 40, as displayed on 25 Oct 2026) using a classical method. It does not establish priority, construct a better code, or close the gaps to the known lower bounds.</p><p>Directed by Ahraz Arifuddin</p><p>Researched and verified by different model families across Gemini, Claude, Grok, OpenAI, and Muse</p>",
+    "upload_type": "software",
+    "license": "Apache-2.0",
+    "keywords": [
+        "codetables",
+        "coding-theory",
+        "combinatorics",
+        "finite-fields",
+        "foundation0",
+        "linear-codes"
+    ],
+    "related_identifiers": [
+        {
+            "identifier": "https://github.com/Foundation-0/gfq-codes",
+            "relation": "isSupplementTo",
+            "scheme": "url",
+            "resource_type": "software"
+        }
+    ]
+}
