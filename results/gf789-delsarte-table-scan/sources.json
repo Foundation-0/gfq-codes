@@ -1,0 +1,64 @@
+{
+  "description": "Addresses of the reference-table pages read for the scan, with the date of reading. No page is stored in this repository. A response hash identifies the bytes read but does not make a mutable address an archive. The scan input was parsed from the three whole-table pages; nine base entries were looked up again by spot_check_live.py.",
+  "read_on": "2026-11-15",
+  "tables": [
+    {
+      "q": 7,
+      "url": "http://www.codetables.de/BKLC/Tables.php?q=7&n0=1&n1=100&k0=1&k1=100",
+      "read_on": "2026-11-15",
+      "response_bytes": 788831,
+      "response_sha256": "e84caa5cf50bc53cc49778482feb1ef69f522d6052f9c8d0633719874cfe1c42",
+      "covers": "every cell with 1<=n<=100, 1<=k<=100"
+    },
+    {
+      "q": 8,
+      "url": "http://www.codetables.de/BKLC/Tables.php?q=8&n0=1&n1=130&k0=1&k1=130",
+      "read_on": "2026-11-15",
+      "response_bytes": 1336865,
+      "response_sha256": "608df4ba5efed1e47253700086caa7eeb1a0782cbc787c8c2014956592e05d0c",
+      "covers": "every cell with 1<=n<=130, 1<=k<=130"
+    },
+    {
+      "q": 9,
+      "url": "http://www.codetables.de/BKLC/Tables.php?q=9&n0=1&n1=130&k0=1&k1=130",
+      "read_on": "2026-11-15",
+      "response_bytes": 1338167,
+      "response_sha256": "2a776fe3c1927e9b7bee146a17174607b799698039d31cb784a64b5d4b848a11",
+      "covers": "every cell with 1<=n<=130, 1<=k<=130"
+    }
+  ],
+  "entries_read_singly": [
+    {
+      "q": 7,
+      "n": 56,
+      "k": 12,
+      "url": "https://www.codetables.de/BKLC/BKLC.php?q=7&n=56&k=12",
+      "read_on": "2026-11-15",
+      "displayed_lower_bound": 33,
+      "displayed_upper_bound": 39,
+      "response_bytes": 2831,
+      "response_sha256": "e2663dde63ce60705a96bd5e15341248b7eb6a2162d1b19ad3f5fc0e531e85d1",
+      "entry_last_modified": "2005-04-11"
+    },
+    {
+      "q": 7,
+      "n": 57,
+      "k": 12,
+      "url": "https://www.codetables.de/BKLC/BKLC.php?q=7&n=57&k=12",
+      "read_on": "2026-11-15",
+      "displayed_lower_bound": 34,
+      "displayed_upper_bound": 40,
+      "response_bytes": 2872,
+      "response_sha256": "7175c7e2439d7a8b0852ec8a9efc3031a75bce5fb5aaf30130fd84bf6b8c4fbf",
+      "entry_last_modified": "2010-08-13"
+    }
+  ],
+  "spot_check": "spot_check_live.py reads nine base entries named by a fixed seed; the nine addresses follow the pattern https://www.codetables.de/BKLC/BKLC.php?q=Q&n=N&k=K and its output is in outputs/spot_check_live.out",
+  "not_read": [
+    {
+      "what": "Daskalov and Metodieva, Minimum distance bounds for 7-ary linear codes, 2007",
+      "url": "https://www.researchgate.net/publication/264553328_Minimum_distance_bounds_for_7-ary_linear_codes",
+      "note": "could not be opened on 2026-11-15 (access refused)"
+    }
+  ]
+}

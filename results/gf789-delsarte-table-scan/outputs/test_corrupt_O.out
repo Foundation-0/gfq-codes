@@ -1,0 +1,11 @@
+test_halved_coefficient (__main__.CorruptionTests.test_halved_coefficient) ... ok
+test_negative_coefficient (__main__.CorruptionTests.test_negative_coefficient) ... ok
+test_original_passes_everywhere (__main__.CorruptionTests.test_original_passes_everywhere) ... ok
+test_smaller_dimension (__main__.CorruptionTests.test_smaller_dimension) ... ok
+test_smaller_distance (__main__.CorruptionTests.test_smaller_distance) ... ok
+test_wrong_declared_bound (__main__.CorruptionTests.test_wrong_declared_bound) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.275s
+
+OK
