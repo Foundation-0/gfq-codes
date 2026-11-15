@@ -54,6 +54,10 @@ python3 -m unittest discover -s tests -v
 Both checkers use exact integers and rational numbers; no optimizer or network is
 needed. Nothing has been submitted to the table maintainer.
 
+The same method run over the GF(7), GF(8) and GF(9) tables, with 1,519 certificates and a note on two GF(7)
+entries inside the first sweep's range that its list omits, is in
+[`results/gf789-delsarte-table-scan/`](results/gf789-delsarte-table-scan/PROOF.md).
+
 ## What is known
 
 The four table entries above were checked directly on 25 October 2026. Broader
@@ -101,6 +105,7 @@ coordinate in [st0a](https://github.com/Foundation-0/st0a), and questions go to 
 | Path | What |
 |---|---|
 | [`codes/README.md`](codes/README.md) | the file format for a claimed code |
+| [`results/gf789-delsarte-table-scan/`](results/gf789-delsarte-table-scan/PROOF.md) | the Delsarte bound run over the GF(7), GF(8) and GF(9) tables: certificates, entry lists, checkers and saved outputs |
 | [`notes/scouting.md`](notes/scouting.md) | the research so far, from the scouting of 18 and 19 Oct 2026, with sources |
 | [`notes/reports/`](notes/reports/README.md) | the complete scouting reports, kept as written, and the fact-check |
 | [`AGENTS.md`](AGENTS.md), [`CLAUDE.md`](CLAUDE.md) | the guide for AI agents |

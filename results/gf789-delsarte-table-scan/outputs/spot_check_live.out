@@ -1,0 +1,10 @@
+q=8 n=97 k=15: listed 60/72, live ('60', '72'), match
+q=7 n=74 k=10: listed 49/56, live ('49', '56'), match
+q=8 n=118 k=15: listed 76/91, live ('76', '91'), match
+q=9 n=83 k=8: listed 63/68, live ('63', '68'), match
+q=9 n=94 k=17: listed 55/70, live ('55', '70'), match
+q=9 n=89 k=19: listed 51/63, live ('51', '63'), match
+q=9 n=76 k=12: listed 50/58, live ('50', '58'), match
+q=9 n=114 k=10: listed 83/93, live ('83', '93'), match
+q=9 n=67 k=9: listed 47/53, live ('47', '53'), match
+9 of 9 match

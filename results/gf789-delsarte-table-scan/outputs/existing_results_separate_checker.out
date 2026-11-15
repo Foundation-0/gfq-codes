@@ -1,0 +1,15 @@
+results/gf7-n74-k10-upper-d55/certificate.json: 1 certificates pass the independent exact check
+results/gf7-n75-k11-upper-d55/certificate.json: 1 certificates pass the independent exact check
+results/gf7-upper-bounds/certificate.json: 4 certificates pass the independent exact check
+results/gf9-n31-k4-upper-d25/certificate.json: 1 certificates pass the independent exact check
+results/gf9-n32-k4-upper-d26/certificate.json: 1 certificates pass the independent exact check
+results/gf9-n32-k5-upper-d25/certificate.json: 1 certificates pass the independent exact check
+results/gf9-n33-k5-upper-d26/certificate.json: 1 certificates pass the independent exact check
+results/gf9-n33-k6-upper-d25/certificate.json: 1 certificates pass the independent exact check
+results/gf9-n34-k6-upper-d26/certificate.json: 1 certificates pass the independent exact check
+results/gf9-n34-k7-upper-d25/certificate.json: 1 certificates pass the independent exact check
+results/gf9-n35-k7-upper-d26/certificate.json: 1 certificates pass the independent exact check
+results/gf9-n35-k8-upper-d25/certificate.json: 1 certificates pass the independent exact check
+results/gf9-n36-k8-upper-d26/certificate.json: 1 certificates pass the independent exact check
+results/gf9-n36-k9-upper-d25/certificate.json: 1 certificates pass the independent exact check
+results/gf9-n37-k9-upper-d26/certificate.json: 1 certificates pass the independent exact check
