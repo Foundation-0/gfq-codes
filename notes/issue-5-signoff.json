@@ -1,0 +1,14 @@
+{
+  "issue": 5,
+  "status": "awaiting-human-review",
+  "recipient_scope": "Markus Grassl, through a route verified by the human sender",
+  "required_evidence": "codes/README.md; the two minimum-distance checker drafts; the bounded search report when available.",
+  "signoffs": [
+    {
+      "preferred_format": null,
+      "preferred_batch_size": null,
+      "search_overlap": null,
+      "credit_requirements": null
+    }
+  ]
+}
